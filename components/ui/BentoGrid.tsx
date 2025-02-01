@@ -53,19 +53,20 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      <div className={`${id === 6} && 'flex justify-center h-full `}>
-        <div className="w-full h-full absolute ">
+      <div className={`${id === 6} && 'flex justify-center h-full`}>
+        <div className="w-full h-full absolute">
           {img && (
             <img
               src={img}
               alt={img}
               className={cn(
                 imgClassName,
-                "object-cover , object-center"
+                "object-cover object-center"
               )}
             />
           )}
         </div>
+
         <div
           className={`absolute right-0 -bottom-5 ${
             id === 5 && "w-full opacity-80"
@@ -75,9 +76,7 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
-              className={
-                "object-cover , object-center , w-full h-full"
-              }
+              className={"object-cover  object-center w-full h-full"}
             />
           )}
         </div>
@@ -97,9 +96,16 @@ export const BentoGridItem = ({
           <div className="font-sans font-extralight text-[#c1c2d3] text-sm  md:text-xs lg:text-base z-10 ">
             {description}
           </div>
-          <div className="font-sans font-bold text-lg lg:text-3xl max-w-96">
+          <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
             {title}
           </div>
+          {id === 2 && <GridGlobe />}
+
+          {id === 3 && (
+            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
+              <div className="flex flex-col gap-3 lg:gap-8">0000</div>
+            </div>
+          )}
         </div>
       </div>
     </div>
