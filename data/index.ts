@@ -140,7 +140,7 @@ export const projects = [
     title: "ShopEase Website",
     des: "Developed a fully functional eCommerce site using React.js, React Router Dom, Vite, Bootstrap, Sass, React Countup Library, and Swiper. The site features a responsive interface, user authentication, product browsing, secure payments, real-time inventory updates, and personalized recommendations for enhanced user engagement. ",
 
-    img: "/images/movie-cover.png",
+    img: "/images/ecommerce.jpg",
     iconLists: [
       "/next.svg",
       "/tail.svg",
@@ -153,7 +153,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 3,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
@@ -165,7 +165,66 @@ export const projects = [
       "/gsap.svg",
     ],
     link: "https://github.com/adrianhajdin/iphone",
+    gitHubLink: "https://apple-website-three-sigma.vercel.app/",
   },
+
+
+  {
+    id: 4,
+    title: "SaaS Excellence Platform",
+    des: "Developed a fully functional eCommerce site using React.js, React Router Dom, Vite, Bootstrap, Sass, React Countup Library, and Swiper. The site features a responsive interface, user authentication, product browsing, secure payments, real-time inventory updates, and personalized recommendations for enhanced user engagement. ",
+
+    img: "/images/hero.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/three.svg",
+      "/gsap.svg",
+    ],
+    link: "https://saas-business-landing-page.web.app/",
+    gitHubLink: "https://github.com/hishamrehab/SaaS-Excellence-Platform",
+  },
+  {
+    id: 5,
+    title: "Admin Dashboard",
+    des: "Utilized cutting-edge technologies to design and develop a robust Admin Dashboard. Tech stack included: React JS, React Router Dom, Tailwind CSS, Framer Motion, Recharts, and Lucide Icons. Created a comprehensive and user-friendly dashboard, showcasing expertise in front-end development, UI design, and data visualization.",
+
+    img: "/images/luke.jpg",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/three.svg",
+      "/gsap.svg",
+    ],
+    link: "https://admin-dashboard-delta-hazel.vercel.app/",
+    gitHubLink: "https://github.com/hishamrehab/Admin-dashboard",
+    
+  },
+
+
+  
+  {
+    id: 6,
+    title: "ChatGPT_Overview",
+    des: "ChaI enhanced user interaction with ChatGPT by developing reusable React components and an organized file structure, utilizing Flexbox and Grid for CSS, BEM for styling, and smooth animations, while ensuring responsiveness and showcasing ChatGPT's features.",
+
+    img: "/images/luke.jpg",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/three.svg",
+      "/gsap.svg",
+    ],
+    link: "https://admin-dashboard-delta-hazel.vercel.app/",
+    gitHubLink: "https://github.com/hishamrehab/Admin-dashboard",
+    
+  },
+
+
+  
 ];
 
 export const testimonials = [
@@ -237,32 +296,12 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer",
+    desc: "Delivered 10+ web applications using React.js and Next.js, improving user engagement by 25% through responsive design and performance optimization, Collaborated with clients to gather requirements and deliver scalable solutions within tight deadlines.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+
 ];
 
 export const socialMedia = [

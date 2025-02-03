@@ -1,9 +1,7 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-
 import Lottie from "react-lottie";
-
 import { cn } from "@/utils/cn";
 
 import { BackgroundGradientAnimation } from "./GradientBg";
@@ -18,6 +16,15 @@ export const BentoGrid = ({
   className?: string;
   children?: React.ReactNode;
 }) => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+}, []);
+
+if (!isMounted) {
+    return null; // or a loading spinner
+}
   return (
     <div
       className={cn(
