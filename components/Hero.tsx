@@ -1,3 +1,4 @@
+import Link from "next/link.js";
 import ShimmerButton from "./ui/MagicButton.tsx";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -44,13 +45,13 @@ const Hero = () => {
             interactive web experiences.
           </p>
 
-          <a href="/about">
+          <Link href="/about">
             <ShimmerButton
               title="Show My Work"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

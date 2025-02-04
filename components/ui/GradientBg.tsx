@@ -59,7 +59,7 @@ export const BackgroundGradientAnimation = ({
       "--blending-value",
       blendingValue
     );
-  }, []);
+  }, [blendingValue, fifthColor, firstColor, fourthColor, gradientBackgroundEnd, gradientBackgroundStart, pointerColor, secondColor, size, thirdColor]);
 
   useEffect(() => {
     function move() {
@@ -74,7 +74,7 @@ export const BackgroundGradientAnimation = ({
     }
 
     move();
-  }, [tgX, tgY]);
+  }, [curX, curY, tgX, tgY]);
 
   const handleMouseMove = (
     event: React.MouseEvent<HTMLDivElement>
