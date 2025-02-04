@@ -1,6 +1,6 @@
 import React from "react";
 
-const MagicButton = ({
+const ShimmerButton = ({
   title,
   icon,
   position,
@@ -32,4 +32,4 @@ const MagicButton = ({
   );
 };
 
-export default MagicButton;
+export default ShimmerButton;

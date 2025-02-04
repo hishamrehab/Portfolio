@@ -1,8 +1,8 @@
 import Link from "next/link.js";
-import ShimmerButton from "./ui/MagicButton.tsx";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { FaLocationArrow } from "react-icons/fa6";
+import ShimmerButton from "./ui/ShimmerButton";
 
 const Hero = () => {
   return (
@@ -30,7 +30,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest tex-xs text-center text-blue-100 max-w-80">
-            Hi, I'm Eng Hisham Rehab, <br />I build responsive and
+            Hi, Im Eng Hisham Rehab, <br />I build responsive and
             Dynamic Web Magic With React and Next.js
           </h2>
           <TextGenerateEffect

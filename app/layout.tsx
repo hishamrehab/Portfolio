@@ -24,11 +24,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
+  return (    
+    <html style={{ colorScheme: "dark" }} className="dark">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+     >
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
