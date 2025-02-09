@@ -56,8 +56,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["Next Js" , "React Js", "JavaScript" ,  "TypeScript" ,  "HTML" ,"CSS" ,"SASS" , "Bootstrsp" ,"Tailwand CSS","Three.js" ,  "GSAP" , "Redux" , "Redux Toolkit" ,"React Query" ,  "Material Ui (MUI)" ,"JQuery" , "React Styled Components"  , "Git", "GitHub","GitLab" , "Vercel" , "Firebase" , "Supabase", "syncfusion", "Netlify" , "Github Pages" , "Render"];
+
 
   const [copied, setCopied] = useState(false);
 
@@ -142,27 +142,14 @@ export const BentoGridItem = ({
           {id === 2 && <GridGlobe />}
 
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+             <div className="flex gap-1 lg:gap-5">
+              <div className="flex flex-row flex-wrap gap-3 md:gap-4 lg:gap-6">
                 {leftLists.map((item, i) => (
-                  <span
-                    key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-              </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-                {rightLists.map((item, i) => (
-                  <span
-                    key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                  lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
+            <span
+            key={i}
+            className="lg:py-4 lg:px-3 py-2 px-3 text-base lg:text-base opacity-50
+          lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+          >
                     {item}
                   </span>
                 ))}

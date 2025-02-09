@@ -1,4 +1,3 @@
-import img from "../public/images/movie-cover.png";
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -13,7 +12,7 @@ export const gridItems = [
       "I prioritize client collaboration, fostering open communication ",
     description: "",
     className:
-      "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      "lg:col-span-3 md:col-span-6 md:row-span-5 md:min-h-[40vh]  lg:min-h-[40vh] sm:w-full",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
@@ -23,17 +22,18 @@ export const gridItems = [
     id: 2,
     title: "I'm very flexible with time zone communications",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 lg:min-h-[30vh] md:max-h-[30vh] md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
     spareImg: "",
   },
+  
   {
     id: 3,
     title: "",
     description: "",
-    className: "lg:col-span-1 md:col-span-3 md:row-span-1",
+    className: "lg:col-span-2 lg:row-span-5  md:col-span-3 md:row-span-5 md:min-h-[40vh] sm:w-full sm:min-h-[30vh] xs:min-h-[100vh]",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
@@ -43,7 +43,7 @@ export const gridItems = [
     id: 4,
     title: "Tech enthusiast with a passion for development.",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    className: "lg:col-span-3 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
@@ -72,52 +72,10 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
+ 
 ];
 
 export const projects = [
-  // {
-  //   id: 1,
-  //   title: "3D Solar System Planets to Explore",
-  //   des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-  //   img: "/p1.svg",
-  //   iconLists: [
-  //     "/re.svg",
-  //     "/tail.svg",
-  //     "/ts.svg",
-  //     "/three.svg",
-  //     "/fm.svg",
-  //   ],
-  //   link: "https://github.com/adrianhajdin?tab=repositories",
-  // },
-  // {
-  //   id: 2,
-  //   title: "Yoom - Video Conferencing App",
-  //   des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-  //   img: "/p2.svg",
-  //   iconLists: [
-  //     "/next.svg",
-  //     "/tail.svg",
-  //     "/ts.svg",
-  //     "/stream.svg",
-  //     "/c.svg",
-  //   ],
-  //   link: "https://github.com/adrianhajdin/zoom-clone",
-  // },
-  // {
-  //   id: 3,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //   img: "/p3.svg",
-  //   iconLists: [
-  //     "/re.svg",
-  //     "/tail.svg",
-  //     "/ts.svg",
-  //     "/three.svg",
-  //     "/c.svg",
-  //   ],
-  //   link: "https://github.com/adrianhajdin/ai_saas_app",
-  // },
-
   {
     id: 1,
     title: "Ultimate MovieHub",
@@ -125,66 +83,102 @@ export const projects = [
 
     img: "/images/movie-cover.png",
     iconLists: [
-      "/next.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/three.svg",
-      "/gsap.svg",
+      "/react.svg",
+      "/stream.svg",
+       "/redux.jpg",
+       "/axios.jpg",
+      // "/gsap.svg",
     ],
     link: "https://movie-app-react-js-a71bd.web.app/",
     gitHubLink: "https://github.com/hishamrehab/Movies-Website",
   },
 
   {
+    id: 3,
+    title: "Animated Apple Iphone 3D Website",
+    des: "Created the Apple iPhone website, combining GSAP animations and Three.js 3D effects..",
+    img: "/iphone.png",
+    iconLists: [
+      "/react.svg",
+      "/tail.svg",
+      "/three.svg",
+      "/gsap.svg",
+    ],
+    link: "https://apple-website-three-sigma.vercel.app/",
+    gitHubLink: "https://github.com/hishamrehab/Apple-iphone-3D-Website",
+  },
+
+
+  {
     id: 2,
     title: "ShopEase Website",
     des: "Developed a fully functional eCommerce site using React.js, React Router Dom, Vite, Bootstrap, Sass, React Countup Library, and Swiper. The site features a responsive interface, user authentication, product browsing, secure payments, real-time inventory updates, and personalized recommendations for enhanced user engagement. ",
 
-    img: "/images/ecommerce.jpg",
+    img: "/ecommerce1.jpg",
     iconLists: [
-      "/next.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/three.svg",
-      "/gsap.svg",
+      "/react.svg",
+      "/bootstrap.jpg",
+      "/swiper.jpg",
+      "/sass.jpg",
     ],
     link: "https://full-ecommerce-website.web.app/",
-    gitHubLink: "https://github.com/hishamrehab/Movies-Website",
+    gitHubLink: "https://github.com/hishamrehab/Ecommerce-Website-React-js",
   },
 
-  {
-    id: 3,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: [
-      "/next.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/three.svg",
-      "/gsap.svg",
-    ],
-    link: "https://github.com/adrianhajdin/iphone",
-    gitHubLink: "https://apple-website-three-sigma.vercel.app/",
-  },
 
 
   {
     id: 4,
     title: "SaaS Excellence Platform",
-    des: "Developed a fully functional eCommerce site using React.js, React Router Dom, Vite, Bootstrap, Sass, React Countup Library, and Swiper. The site features a responsive interface, user authentication, product browsing, secure payments, real-time inventory updates, and personalized recommendations for enhanced user engagement. ",
+    des: "This landing page is built using React, combined with Tailwind CSS for rapid UI development. Sass is integrated to enhance styling, enabling modular, maintainable, and scalable CSS.",
 
     img: "/images/hero.png",
     iconLists: [
-      "/next.svg",
+      "/react.svg",
       "/tail.svg",
-      "/ts.svg",
-      "/three.svg",
-      "/gsap.svg",
-    ],
+],
     link: "https://saas-business-landing-page.web.app/",
     gitHubLink: "https://github.com/hishamrehab/SaaS-Excellence-Platform",
   },
+  {
+    id:10,
+    title: "Portfolio",
+    des: "An interactive portfolio that blends immersive 3D experiences, smooth animations, and dynamic UI elements to showcase creativity and technical expertise in an engaging, user-driven environment.",
+
+    img: "/hishamrehab.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/three.svg",
+      "/chadu.png"
+   
+    ],
+    link: "https://chat-gpt-overview.vercel.app/",
+    gitHubLink: "https://github.com/hishamrehab/ChatGPT_Overview",
+    
+  },
+
+  {
+    id: 7,
+    title: "Youtube",
+    des: "Build this youtube with React and Material-UI, YouTube offers a seamless experience for watching, sharing, and discovering videos. Key features include a user-friendly interface, effective search functionality, personalized recommendations, live streaming, and monetization options for creators. Experience the world of video content like never before with YouTube!.",
+
+    img: "/youtube.jpg",
+    iconLists: [
+      "/react.svg",
+      "/stream.svg",
+      "/axios.jpg",
+      "/styledComponents.jpg"
+
+    
+    ],
+    link: "https://you-tube-nzf7.vercel.app/",
+    gitHubLink: "https://github.com/hishamrehab/YouTube",
+    
+  },
+
+
+
   {
     id: 5,
     title: "Admin Dashboard",
@@ -192,11 +186,11 @@ export const projects = [
 
     img: "/images/luke.jpg",
     iconLists: [
-      "/next.svg",
+      "/react.svg",
       "/tail.svg",
-      "/ts.svg",
-      "/three.svg",
-      "/gsap.svg",
+      "/fermeMotion.svg",
+     
+      
     ],
     link: "https://admin-dashboard-delta-hazel.vercel.app/",
     gitHubLink: "https://github.com/hishamrehab/Admin-dashboard",
@@ -210,19 +204,32 @@ export const projects = [
     title: "ChatGPT_Overview",
     des: "ChaI enhanced user interaction with ChatGPT by developing reusable React components and an organized file structure, utilizing Flexbox and Grid for CSS, BEM for styling, and smooth animations, while ensuring responsiveness and showcasing ChatGPT's features.",
 
-    img: "/images/luke.jpg",
+    img: "/chatjpt.png",
     iconLists: [
-      "/next.svg",
+      "/react.svg",
       "/tail.svg",
-      "/ts.svg",
-      "/three.svg",
-      "/gsap.svg",
     ],
-    link: "https://admin-dashboard-delta-hazel.vercel.app/",
-    gitHubLink: "https://github.com/hishamrehab/Admin-dashboard",
+    link: "https://chat-gpt-overview.vercel.app/",
+    gitHubLink: "https://github.com/hishamrehab/ChatGPT_Overview",
     
   },
 
+    
+  {
+    id:8,
+    title: "Ecommerce Website",
+    des: "Developed a responsive e-commerce website using HTML, CSS, and JavaScript with a dynamic product catalog and secure checkout. Implemented client-side form validation and interactive UI elements, ensuring cross-browser compatibility.",
+
+    img: "/images/ecommerce.jpg",
+    iconLists: [
+      "/javascript.jpg",
+      "/css.png",
+      "/html.webp",
+    ],
+    link: "https://chat-gpt-overview.vercel.app/",
+    gitHubLink: "https://github.com/hishamrehab/ChatGPT_Overview",
+    
+  },
 
   
 ];
@@ -308,13 +315,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    link:"https://github.com/hishamrehab"
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/hisham-rehab/"
   },
+  {
+    id: 3,
+    img: "/wha.svg",
+    link:"01211463479"
+  },
+
 ];

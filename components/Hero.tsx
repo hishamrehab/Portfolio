@@ -3,7 +3,8 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { FaLocationArrow } from "react-icons/fa6";
 import ShimmerButton from "./ui/ShimmerButton";
-
+import Image from "next/image";
+import image1 from "../public/hishamrehab.png"
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
@@ -29,21 +30,16 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest tex-xs text-center text-blue-100 max-w-80">
-            Hi, Im Eng Hisham Rehab, <br />I build responsive and
-            Dynamic Web Magic With React and Next.js
+          <h2 className="uppercase tracking-widest tex-xs text-center text-blue-100 max-w-80 flex items-center justify-center gap-3">
+          <span> Eng Hisham Rehab</span>
+          <Image src={image1} alt="logo" width={100} height={100}/>
           </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             words="Transforming Concepts into seamless User Experiences"
           />
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Welcome to the world of dynamic web magic, where concepts
-            come alive in seamless experiences. With React and
-            Next.js, I bring you a captivating blend of creativity and
-            innovation, where lines of code dance into a symphony of
-            interactive web experiences.
-          </p>
+          <p className="text-center md:tracking-wider mb-6 text-sm md:text-lg lg:text-2xl ">
+          I am a Software Engineer and Front End Developer specializing in React and Next.js, focused on creating dynamic web applications. With expertise in JavaScript, HTML, and CSS, I design smooth user experiences. I thrive in team settings, delivering high-quality projects on schedule and contributing effectively through code reviews and agile methodologies.</p>
 
           <Link href="/about">
             <ShimmerButton

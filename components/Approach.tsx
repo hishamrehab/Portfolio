@@ -148,7 +148,6 @@ const AceternityIcon = ({ order }: { order: string }) => {
         </span>
       </button>
     </div>
-
   );
 };
 

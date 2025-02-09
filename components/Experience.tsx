@@ -1,7 +1,6 @@
 import { workExperience } from '@/data'
 import React from 'react'
 import { Button } from './ui/MovingBorder'
-import Image from 'next/image'
 
 const Experience = () => {
   return (
@@ -18,16 +17,14 @@ const Experience = () => {
             <Button 
              key={card.id}
              borderRadius='1.75rem'
-            //  className='flex flex-1 jtems-center lg:flex-col '
-             className='flex-1 flex lg:flex-row md:flex-col sm:flex-col xl:flex-row 2xl:flex-row text-white border-neutral-200 dark:border-slate-800 py-5 lg:py-8  px-3'
-                   duration={Math.floor(Math.random() * 10000) + 10000}
+             className='flex justify-between items-center gap-5 lg:py-8  text-white border-neutral-200 dark:border-slate-800 py-8 px-4 lg:px-6 hover:scale-105 transition-all duration-200 ease-in-out'
+             duration={Math.floor(Math.random() * 10000) + 10000}
 
             >
-        <div className='flex lg:flex-row flex-col  lg:items-center p-3  md:p-5 lg:p-10 ' >
-          <Image src={card.thumbnail} alt={card.thumbnail}  className='hidden sm:block md:block lg:block' fill />
-           </div>
+       
+          
 
-            <div className='lg:ms-5 mb-3'>
+            <div className='lg:ms-5 mb-3 w-full'>
                 <h1 className='text-start text-xl md:text-3xl font-extrabold loading-4'>
                     {card.title}
                 </h1>
