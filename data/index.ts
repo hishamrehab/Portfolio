@@ -151,10 +151,9 @@ export const projects = [
       "/tail.svg",
       "/three.svg",
       "/chadu.png"
-   
     ],
-    link: "https://chat-gpt-overview.vercel.app/",
-    gitHubLink: "https://github.com/hishamrehab/ChatGPT_Overview",
+    link: "https://portfolio-7e535.web.app/",
+    gitHubLink: "https://github.com/hishamrehab/Portfolio",
     
   },
 
@@ -169,15 +168,11 @@ export const projects = [
       "/stream.svg",
       "/axios.jpg",
       "/styledComponents.jpg"
-
-    
     ],
     link: "https://you-tube-nzf7.vercel.app/",
     gitHubLink: "https://github.com/hishamrehab/YouTube",
     
   },
-
-
 
   {
     id: 5,
@@ -194,7 +189,7 @@ export const projects = [
     ],
     link: "https://admin-dashboard-delta-hazel.vercel.app/",
     gitHubLink: "https://github.com/hishamrehab/Admin-dashboard",
-    
+
   },
 
 
