@@ -145,7 +145,7 @@ export const projects = [
     title: "Portfolio",
     des: "An interactive portfolio that blends immersive 3D experiences, smooth animations, and dynamic UI elements to showcase creativity and technical expertise in an engaging, user-driven environment.",
 
-    img: "/hishamrehab.png",
+    img: "/favicon.ico",
     iconLists: [
       "/next.svg",
       "/tail.svg",

@@ -4,7 +4,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { FaLocationArrow } from "react-icons/fa6";
 import ShimmerButton from "./ui/ShimmerButton";
 import Image from "next/image";
-import image1 from "../public/hishamrehab.png"
+import image1 from "../public/favicon.ico"
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
