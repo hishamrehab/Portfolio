@@ -92,11 +92,26 @@ export const projects = [
     link: "https://movie-app-react-js-a71bd.web.app/",
     gitHubLink: "https://github.com/hishamrehab/Movies-Website",
   },
-
+  {
+    id: 2,
+    title: "Storage Mangement System",
+    des: "Proficient in Next.js, React.js, Tailwind CSS, Shadcn UI, and Appwrite, with expertise in implementing user authentication, file uploads, and management features, including a dynamic dashboard and global search functionality. Skilled in creating modern, responsive designs that prioritize usability and code reusability for seamless user experiences..",
+    img: "/storage.png",
+    iconLists: [
+      "/next.svg",
+      "/react.svg",
+      "/ts.jpg",
+      "/tail.svg",
+      "/chadu.png",
+    
+    ],
+    link: "https://storage-management-solutions-system.vercel.app",
+    gitHubLink: "https://github.com/hishamrehab/Storage-Management-Solutions-System",
+  },
   {
     id: 3,
     title: "Animated Apple Iphone 3D Website",
-    des: "Created the Apple iPhone website, combining GSAP animations and Three.js 3D effects..",
+    des: "Created the Apple iPhone website, combining GSAP animations and Three.js 3D effects.",
     img: "/iphone.png",
     iconLists: [
       "/react.svg",
@@ -110,7 +125,7 @@ export const projects = [
 
 
   {
-    id: 2,
+    id: 4,
     title: "ShopEase Website",
     des: "Developed a fully functional eCommerce site using React.js, React Router Dom, Vite, Bootstrap, Sass, React Countup Library, and Swiper. The site features a responsive interface, user authentication, product browsing, secure payments, real-time inventory updates, and personalized recommendations for enhanced user engagement. ",
 
@@ -128,7 +143,7 @@ export const projects = [
 
 
   {
-    id: 4,
+    id: 5,
     title: "SaaS Excellence Platform",
     des: "This landing page is built using React, combined with Tailwind CSS for rapid UI development. Sass is integrated to enhance styling, enabling modular, maintainable, and scalable CSS.",
 
@@ -141,7 +156,7 @@ export const projects = [
     gitHubLink: "https://github.com/hishamrehab/SaaS-Excellence-Platform",
   },
   {
-    id:10,
+    id:6,
     title: "Portfolio",
     des: "An interactive portfolio that blends immersive 3D experiences, smooth animations, and dynamic UI elements to showcase creativity and technical expertise in an engaging, user-driven environment.",
 
@@ -149,6 +164,7 @@ export const projects = [
     iconLists: [
       "/next.svg",
       "/tail.svg",
+      "/ts.jpg",
       "/three.svg",
       "/chadu.png"
     ],
@@ -175,7 +191,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 8,
     title: "Admin Dashboard",
     des: "Utilized cutting-edge technologies to design and develop a robust Admin Dashboard. Tech stack included: React JS, React Router Dom, Tailwind CSS, Framer Motion, Recharts, and Lucide Icons. Created a comprehensive and user-friendly dashboard, showcasing expertise in front-end development, UI design, and data visualization.",
 
@@ -195,7 +211,7 @@ export const projects = [
 
   
   {
-    id: 6,
+    id: 9,
     title: "ChatGPT_Overview",
     des: "ChaI enhanced user interaction with ChatGPT by developing reusable React components and an organized file structure, utilizing Flexbox and Grid for CSS, BEM for styling, and smooth animations, while ensuring responsiveness and showcasing ChatGPT's features.",
 
@@ -211,7 +227,7 @@ export const projects = [
 
     
   {
-    id:8,
+    id:10,
     title: "Ecommerce Website",
     des: "Developed a responsive e-commerce website using HTML, CSS, and JavaScript with a dynamic product catalog and secure checkout. Implemented client-side form validation and interactive UI elements, ensuring cross-browser compatibility.",
 

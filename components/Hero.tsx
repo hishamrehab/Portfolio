@@ -39,8 +39,7 @@ const Hero = () => {
             words="Transforming Concepts into seamless User Experiences"
           />
           <p className="text-center md:tracking-wider mb-6 text-sm md:text-lg lg:text-2xl ">
-          I am a Software Engineer and Front End Developer specializing in React and Next.js, focused on creating dynamic web applications. With expertise in JavaScript, HTML, and CSS, I design smooth user experiences. I thrive in team settings, delivering high-quality projects on schedule and contributing effectively through code reviews and agile methodologies.</p>
-
+       A Software Engineer and Front End Developer specializing in React and Next.js, focused on creating dynamic web applications. With expertise in JavaScript, HTML, and CSS, I design smooth user experiences. I thrive in team settings, delivering high-quality projects on schedule and contributing effectively through code reviews and agile methodologies.</p>
           <Link href="/about">
             <ShimmerButton
               title="Show My Work"
