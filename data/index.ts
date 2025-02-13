@@ -105,7 +105,7 @@ export const projects = [
       "/chadu.png",
     
     ],
-    link: "https://storage-management-solutions-system.vercel.app",
+    link: "https://storage-management-solutions-system-f29j.vercel.app/sign-in",
     gitHubLink: "https://github.com/hishamrehab/Storage-Management-Solutions-System",
   },
   {
@@ -219,23 +219,6 @@ export const projects = [
     iconLists: [
       "/react.svg",
       "/tail.svg",
-    ],
-    link: "https://chat-gpt-overview.vercel.app/",
-    gitHubLink: "https://github.com/hishamrehab/ChatGPT_Overview",
-    
-  },
-
-    
-  {
-    id:10,
-    title: "Ecommerce Website",
-    des: "Developed a responsive e-commerce website using HTML, CSS, and JavaScript with a dynamic product catalog and secure checkout. Implemented client-side form validation and interactive UI elements, ensuring cross-browser compatibility.",
-
-    img: "/images/ecommerce.jpg",
-    iconLists: [
-      "/javascript.jpg",
-      "/css.png",
-      "/html.webp",
     ],
     link: "https://chat-gpt-overview.vercel.app/",
     gitHubLink: "https://github.com/hishamrehab/ChatGPT_Overview",
